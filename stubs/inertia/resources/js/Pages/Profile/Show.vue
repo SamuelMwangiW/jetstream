@@ -6,7 +6,7 @@ import SectionBorder from '@/Components/SectionBorder.vue';
 import TwoFactorAuthenticationForm from '@/Pages/Profile/Partials/TwoFactorAuthenticationForm.vue';
 import UpdatePasswordForm from '@/Pages/Profile/Partials/UpdatePasswordForm.vue';
 import UpdateProfileInformationForm from '@/Pages/Profile/Partials/UpdateProfileInformationForm.vue';
-import PageContainer from "@/Pages/PageContainer.vue";
+import PageHeader from "@/Components/PageHeader.vue";
 
 defineOptions({
     layout: AppLayout,

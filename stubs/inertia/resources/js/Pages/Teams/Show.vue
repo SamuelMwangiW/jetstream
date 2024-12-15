@@ -4,7 +4,7 @@ import DeleteTeamForm from '@/Pages/Teams/Partials/DeleteTeamForm.vue';
 import SectionBorder from '@/Components/SectionBorder.vue';
 import TeamMemberManager from '@/Pages/Teams/Partials/TeamMemberManager.vue';
 import UpdateTeamNameForm from '@/Pages/Teams/Partials/UpdateTeamNameForm.vue';
-import PageContainer from "@/Pages/PageContainer.vue";
+import PageHeader from "@/Components/PageHeader.vue";
 
 defineOptions({
     layout: AppLayout,

@@ -1,7 +1,7 @@
 <script setup>
 import ApiTokenManager from '@/Pages/API/Partials/ApiTokenManager.vue';
 import AppLayout from '@/Layouts/AppLayout.vue';
-import PageContainer from "@/Pages/PageContainer.vue";
+import PageHeader from "@/Components/PageHeader.vue";
 
 defineOptions({
     layout: AppLayout,

@@ -1,7 +1,7 @@
 <script setup>
 import AppLayout from '@/Layouts/AppLayout.vue';
 import Welcome from '@/Components/Welcome.vue';
-import PageContainer from "@/Pages/PageContainer.vue";
+import PageHeader from "@/Components/PageHeader.vue";
 
 defineOptions({
     layout: AppLayout,
