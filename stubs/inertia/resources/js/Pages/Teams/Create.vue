@@ -9,17 +9,15 @@ defineOptions({
 </script>
 
 <template>
-    <PageContainer title="Create Team">
-        <template #header>
-            <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
-                Create Team
-            </h2>
-        </template>
+    <PageHeader title="Create Team">
+        <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
+            Create Team
+        </h2>
+    </PageHeader>
 
-        <div>
-            <div class="max-w-7xl mx-auto py-10 sm:px-6 lg:px-8">
-                <CreateTeamForm />
-            </div>
+    <div>
+        <div class="max-w-7xl mx-auto py-10 sm:px-6 lg:px-8">
+            <CreateTeamForm />
         </div>
-    </PageContainer>
+    </div>
 </template>
